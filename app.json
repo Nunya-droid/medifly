@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "MediFly",
+    "slug": "medifly",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "scheme": "medifly",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#EAF4FA",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png",
+      "name": "MediFly — Healthcare at Your Doorstep",
+      "shortName": "MediFly",
+      "description": "MediFly is an academic demonstration of a healthcare delivery platform connecting customers, pharmacies and delivery partners.",
+      "themeColor": "#153B56",
+      "backgroundColor": "#F6F9FC"
+    },
+    "plugins": ["expo-router", "expo-status-bar", "expo-font"],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
